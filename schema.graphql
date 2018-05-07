@@ -1,0 +1,8 @@
+type Challenge {
+  id: ID!
+  name: String!
+}
+
+type Query {
+  challenges: [Challenge!]!
+}
